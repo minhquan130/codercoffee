@@ -8,7 +8,7 @@ add_ux_builder_shortcode( 'map', array(
   'template' => flatsome_ux_builder_template( 'map.html' ),
   'wrap' => false,
   'scripts' => array(
-    'google-maps' => '//maps.google.com/maps/api/js?key='. trim( get_theme_mod( 'google_map_api', 'AIzaSyCnQHEUD4Yvg4m1ul3PWUwsjctR1Cl2NFc' ) ),
+    'google-maps' => '//maps.google.com/maps/api/js?key='. trim( get_theme_mod( 'google_map_api', '' ) ),
   ),
 
   'presets' => array(
