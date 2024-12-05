@@ -1,0 +1,744 @@
+{
+    "dup_type": "lite",
+    "created": "2024-12-05 07:37:36",
+    "version_dup": "1.5.11.2",
+    "version_wp": "6.7.1",
+    "version_db": "5.7.44",
+    "version_php": "8.1.27",
+    "version_os": "Linux",
+    "blogname": "Coder Coffee",
+    "exportOnlyDB": 0,
+    "secure_on": 0,
+    "secure_pass": "$2a$08$Q87OfRLYQmm7XnptCRo0EOVgqQnq0DWO7alhYGYLackD\/fsnuV4ei",
+    "dbhost": null,
+    "dbname": null,
+    "dbuser": null,
+    "cpnl_host": null,
+    "cpnl_user": null,
+    "cpnl_pass": null,
+    "cpnl_enable": null,
+    "wp_tableprefix": "wp_",
+    "mu_mode": 0,
+    "mu_generation": 0,
+    "mu_siteadmins": [
+        "admin"
+    ],
+    "subsites": [
+        {
+            "id": 1,
+            "domain": "codercoffee.io.vn",
+            "path": "\/",
+            "blogname": "Coder Coffee",
+            "blog_prefix": "wp_",
+            "filteredTables": [],
+            "adminUsers": [
+                {
+                    "ID": "1",
+                    "user_login": "admin",
+                    "id": "1"
+                }
+            ],
+            "fullHomeUrl": "https:\/\/codercoffee.io.vn",
+            "fullSiteUrl": "https:\/\/codercoffee.io.vn",
+            "uploadPath": "wp-content\/uploads",
+            "fullUploadPath": "\/home\/codercoffe\/domains\/codercoffee.io.vn\/public_html\/wp-content\/uploads",
+            "fullUploadSafePath": "\/home\/codercoffe\/domains\/codercoffee.io.vn\/public_html\/wp-content\/uploads",
+            "fullUploadUrl": "https:\/\/codercoffee.io.vn\/wp-content\/uploads",
+            "filteredPaths": []
+        }
+    ],
+    "main_site_id": 1,
+    "mu_is_filtered": false,
+    "license_limit": 0,
+    "license_type": 0,
+    "dbInfo": {
+        "buildMode": "PHP",
+        "charSetList": [
+            "utf8mb4",
+            "utf8"
+        ],
+        "collationList": [
+            "utf8_general_ci",
+            "utf8mb4_unicode_520_ci"
+        ],
+        "engineList": [
+            "InnoDB"
+        ],
+        "isTablesUpperCase": 0,
+        "isNameUpperCase": 0,
+        "name": "codercoffe_quanlybanhang",
+        "tablesBaseCount": 54,
+        "tablesFinalCount": 54,
+        "muFilteredTableCount": 0,
+        "tablesRowCount": 1926,
+        "tablesSizeOnDisk": 5455872,
+        "tablesList": {
+            "wp_actionscheduler_actions": {
+                "inaccurateRows": 33,
+                "insertedRows": 33,
+                "size": 131072
+            },
+            "wp_actionscheduler_claims": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_actionscheduler_groups": {
+                "inaccurateRows": 2,
+                "insertedRows": 5,
+                "size": 32768
+            },
+            "wp_actionscheduler_logs": {
+                "inaccurateRows": 91,
+                "insertedRows": 97,
+                "size": 49152
+            },
+            "wp_commentmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_comments": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 114688
+            },
+            "wp_duplicator_packages": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 32768
+            },
+            "wp_links": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_options": {
+                "inaccurateRows": 444,
+                "insertedRows": 450,
+                "size": 2195456
+            },
+            "wp_postmeta": {
+                "inaccurateRows": 764,
+                "insertedRows": 660,
+                "size": 262144
+            },
+            "wp_posts": {
+                "inaccurateRows": 203,
+                "insertedRows": 158,
+                "size": 376832
+            },
+            "wp_social_users": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_termmeta": {
+                "inaccurateRows": 17,
+                "insertedRows": 19,
+                "size": 49152
+            },
+            "wp_terms": {
+                "inaccurateRows": 19,
+                "insertedRows": 21,
+                "size": 49152
+            },
+            "wp_term_relationships": {
+                "inaccurateRows": 43,
+                "insertedRows": 43,
+                "size": 32768
+            },
+            "wp_term_taxonomy": {
+                "inaccurateRows": 19,
+                "insertedRows": 21,
+                "size": 49152
+            },
+            "wp_usermeta": {
+                "inaccurateRows": 86,
+                "insertedRows": 87,
+                "size": 49152
+            },
+            "wp_users": {
+                "inaccurateRows": 3,
+                "insertedRows": 4,
+                "size": 65536
+            },
+            "wp_wc_admin_notes": {
+                "inaccurateRows": 61,
+                "insertedRows": 76,
+                "size": 65536
+            },
+            "wp_wc_admin_note_actions": {
+                "inaccurateRows": 108,
+                "insertedRows": 108,
+                "size": 81920
+            },
+            "wp_wc_category_lookup": {
+                "inaccurateRows": 3,
+                "insertedRows": 5,
+                "size": 16384
+            },
+            "wp_wc_customer_lookup": {
+                "inaccurateRows": 3,
+                "insertedRows": 3,
+                "size": 49152
+            },
+            "wp_wc_download_log": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_wc_orders": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 131072
+            },
+            "wp_wc_orders_meta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_wc_order_addresses": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "wp_wc_order_coupon_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_wc_order_operational_data": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_wc_order_product_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "wp_wc_order_stats": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 65536
+            },
+            "wp_wc_order_tax_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_wc_product_attributes_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_wc_product_download_directories": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 32768
+            },
+            "wp_wc_product_meta_lookup": {
+                "inaccurateRows": 16,
+                "insertedRows": 16,
+                "size": 114688
+            },
+            "wp_wc_rate_limits": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_wc_reserved_stock": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_wc_tax_rate_classes": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 32768
+            },
+            "wp_wc_webhooks": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_woocommerce_api_keys": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_woocommerce_attribute_taxonomies": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 32768
+            },
+            "wp_woocommerce_downloadable_product_permissions": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "wp_woocommerce_log": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_woocommerce_order_itemmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_woocommerce_order_items": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_woocommerce_payment_tokenmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_woocommerce_payment_tokens": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_woocommerce_sessions": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 32768
+            },
+            "wp_woocommerce_shipping_zones": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_woocommerce_shipping_zone_locations": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_woocommerce_shipping_zone_methods": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_woocommerce_tax_rates": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "wp_woocommerce_tax_rate_locations": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_yith_wcwl": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 32768
+            },
+            "wp_yith_wcwl_lists": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 49152
+            }
+        },
+        "lowerCaseTableNames": 0,
+        "dbEngine": "MySQL",
+        "version": "5.7.44",
+        "versionComment": "MySQL Community Server (GPL)",
+        "viewCount": 0,
+        "procCount": 0,
+        "funcCount": 0,
+        "triggerList": []
+    },
+    "packInfo": {
+        "packageId": 1,
+        "packageName": "20241205_codercoffee",
+        "packageHash": "169962b-05073736",
+        "secondaryHash": "051ab73-05073736"
+    },
+    "fileInfo": {
+        "dirCount": 2106,
+        "fileCount": 12995,
+        "size": 94366399
+    },
+    "wpInfo": {
+        "version": "6.7.1",
+        "is_multisite": false,
+        "network_id": 1,
+        "targetRoot": "\/home\/codercoffe\/domains\/codercoffee.io.vn\/public_html",
+        "targetPaths": [
+            "\/home\/codercoffe\/domains\/codercoffee.io.vn\/public_html"
+        ],
+        "adminUsers": [
+            {
+                "ID": "1",
+                "user_login": "admin",
+                "id": "1"
+            }
+        ],
+        "configs": {
+            "defines": {
+                "ABSPATH": {
+                    "value": "\/home\/codercoffe\/domains\/codercoffee.io.vn\/public_html\/",
+                    "inWpConfig": true
+                },
+                "DB_CHARSET": {
+                    "value": "utf8mb4",
+                    "inWpConfig": true
+                },
+                "DB_COLLATE": {
+                    "value": "",
+                    "inWpConfig": true
+                },
+                "AUTH_KEY": {
+                    "value": "^eh-BpPH9O+YzC8|x793^CR<i2l+|8]L+nwgCiCu|X&t9*;e30{`jMSmq}T3WYAQ",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_KEY": {
+                    "value": "uQL^?Kt|$m.xzp~\/[>2VmA0ZD&-p!:4;6^B1QmRk9LgN4LRNkA],ZyyS_0^8~*A;",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_KEY": {
+                    "value": "Hr)g<M#&J6-%+$Xt$F(`a&pKl5gI}^gP5+{y9*n?!~RtCQ|Kd(6I}:R#O4+PXG$-",
+                    "inWpConfig": true
+                },
+                "NONCE_KEY": {
+                    "value": "LGi$hc?HUs1(+KtN 79Y8Yy{#)B)n(NPU[W~Z,bb\/FO~7fzq]N,(Pkdv3Dw,ou{,",
+                    "inWpConfig": true
+                },
+                "AUTH_SALT": {
+                    "value": "zE@(QVtl*[o;yM=~Ys60S;_EFc~2U2q0;_)])7?F4K-\/fD!uo:@dJ,g+nFOTOIJd",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_SALT": {
+                    "value": "$NTf(E0,LDhG6QOqX^ s<g(vPpp.X:Jq_NqZi6j?B0z=x~fL0!xRsEJ|~n%&|08.",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_SALT": {
+                    "value": "*+0gT:;V\/Y(;_fb>BN2hzDbr=J8p45xj`f}a*DLQ_o%yGal)~yB&IB!k(F,&#gpJ",
+                    "inWpConfig": true
+                },
+                "NONCE_SALT": {
+                    "value": "Yu756{~Sbr%~{Q,fbU)}6fQ1DkbIRPx, -!7X[;=2 .F-zf8!?:67pU5|=c.:AGv",
+                    "inWpConfig": true
+                },
+                "WP_CONTENT_DIR": {
+                    "value": "\/home\/codercoffe\/domains\/codercoffee.io.vn\/public_html\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_CONTENT_URL": {
+                    "value": "https:\/\/codercoffee.io.vn\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_DIR": {
+                    "value": "\/home\/codercoffe\/domains\/codercoffee.io.vn\/public_html\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_URL": {
+                    "value": "https:\/\/codercoffee.io.vn\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "PLUGINDIR": {
+                    "value": "wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "AUTOSAVE_INTERVAL": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "WP_POST_REVISIONS": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "COOKIE_DOMAIN": {
+                    "value": "",
+                    "inWpConfig": false
+                },
+                "MULTISITE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG": {
+                    "value": false,
+                    "inWpConfig": true
+                },
+                "SCRIPT_DEBUG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_LOG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_DISPLAY": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WP_MEMORY_LIMIT": {
+                    "value": "40M",
+                    "inWpConfig": false
+                },
+                "WP_MAX_MEMORY_LIMIT": {
+                    "value": "256M",
+                    "inWpConfig": false
+                },
+                "WP_CACHE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_LANG_DIR": {
+                    "value": "\/home\/codercoffe\/domains\/codercoffee.io.vn\/public_html\/wp-content\/languages",
+                    "inWpConfig": false
+                },
+                "WP_CRON_LOCK_TIMEOUT": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "COOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "SITECOOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "ADMIN_COOKIE_PATH": {
+                    "value": "\/wp-admin",
+                    "inWpConfig": false
+                },
+                "PLUGINS_COOKIE_PATH": {
+                    "value": "\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "TEMPLATEPATH": {
+                    "value": "\/home\/codercoffe\/domains\/codercoffee.io.vn\/public_html\/wp-content\/themes\/flatsome",
+                    "inWpConfig": false
+                },
+                "STYLESHEETPATH": {
+                    "value": "\/home\/codercoffe\/domains\/codercoffee.io.vn\/public_html\/wp-content\/themes\/flatsome",
+                    "inWpConfig": false
+                },
+                "EMPTY_TRASH_DAYS": {
+                    "value": 30,
+                    "inWpConfig": false
+                },
+                "FORCE_SSL_ADMIN": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_DIR": {
+                    "value": "\/home\/codercoffe\/domains\/codercoffee.io.vn\/public_html\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_URL": {
+                    "value": "https:\/\/codercoffee.io.vn\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "MUPLUGINDIR": {
+                    "value": "wp-content\/mu-plugins",
+                    "inWpConfig": false
+                }
+            },
+            "realValues": {
+                "siteUrl": "https:\/\/codercoffee.io.vn",
+                "homeUrl": "https:\/\/codercoffee.io.vn",
+                "loginUrl": "https:\/\/codercoffee.io.vn\/wp-login.php",
+                "contentUrl": "https:\/\/codercoffee.io.vn\/wp-content",
+                "uploadBaseUrl": "https:\/\/codercoffee.io.vn\/wp-content\/uploads",
+                "pluginsUrl": "https:\/\/codercoffee.io.vn\/wp-content\/plugins",
+                "mupluginsUrl": "https:\/\/codercoffee.io.vn\/wp-content\/mu-plugins",
+                "themesUrl": "https:\/\/codercoffee.io.vn\/wp-content\/themes",
+                "originalPaths": {
+                    "home": "\/home\/codercoffe\/domains\/codercoffee.io.vn\/public_html",
+                    "abs": "\/home\/codercoffe\/domains\/codercoffee.io.vn\/public_html",
+                    "wpconfig": "\/home\/codercoffe\/domains\/codercoffee.io.vn\/public_html",
+                    "wpcontent": "\/home\/codercoffe\/domains\/codercoffee.io.vn\/public_html\/wp-content",
+                    "uploads": "\/home\/codercoffe\/domains\/codercoffee.io.vn\/public_html\/wp-content\/uploads",
+                    "plugins": "\/home\/codercoffe\/domains\/codercoffee.io.vn\/public_html\/wp-content\/plugins",
+                    "muplugins": "\/home\/codercoffe\/domains\/codercoffee.io.vn\/public_html\/wp-content\/mu-plugins",
+                    "themes": "\/home\/codercoffe\/domains\/codercoffee.io.vn\/public_html\/wp-content\/themes"
+                },
+                "archivePaths": {
+                    "home": "\/home\/codercoffe\/domains\/codercoffee.io.vn\/public_html",
+                    "abs": "\/home\/codercoffe\/domains\/codercoffee.io.vn\/public_html",
+                    "wpconfig": "\/home\/codercoffe\/domains\/codercoffee.io.vn\/public_html",
+                    "wpcontent": "\/home\/codercoffe\/domains\/codercoffee.io.vn\/public_html\/wp-content",
+                    "uploads": "\/home\/codercoffe\/domains\/codercoffee.io.vn\/public_html\/wp-content\/uploads",
+                    "plugins": "\/home\/codercoffe\/domains\/codercoffee.io.vn\/public_html\/wp-content\/plugins",
+                    "muplugins": "\/home\/codercoffe\/domains\/codercoffee.io.vn\/public_html\/wp-content\/mu-plugins",
+                    "themes": "\/home\/codercoffe\/domains\/codercoffee.io.vn\/public_html\/wp-content\/themes"
+                }
+            }
+        },
+        "plugins": {
+            "contact-form-7\/wp-contact-form-7.php": {
+                "slug": "contact-form-7\/wp-contact-form-7.php",
+                "name": "Contact Form 7",
+                "version": "5.8.5",
+                "pluginURI": "https:\/\/contactform7.com\/",
+                "author": "Takayuki Miyoshi",
+                "authorURI": "https:\/\/ideasilo.wordpress.com\/",
+                "description": "Just another contact form plugin. Simple but flexible.",
+                "title": "Contact Form 7",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "duplicator\/duplicator.php": {
+                "slug": "duplicator\/duplicator.php",
+                "name": "Duplicator",
+                "version": "1.5.11.2",
+                "pluginURI": "https:\/\/duplicator.com\/",
+                "author": "Duplicator",
+                "authorURI": "https:\/\/duplicator.com\/",
+                "description": "Migrate and backup a copy of your WordPress files and database. Duplicate and move a site from one location to another quickly.",
+                "title": "Duplicator",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "facebook-messenger-customer-chat\/facebook-messenger-customer-chat.php": {
+                "slug": "facebook-messenger-customer-chat\/facebook-messenger-customer-chat.php",
+                "name": "Facebook Chat Plugin - Live Chat Plugin for WordPress",
+                "version": "2.5",
+                "pluginURI": "",
+                "author": "Meta",
+                "authorURI": "https:\/\/developers.facebook.com",
+                "description": "With a few clicks, you can add the Facebook Chat Plugin to your website, enabling customers to message you while browsing your website. To see and reply to those messages, simply use the same messaging tools you use for your Facebook messaging, on desktop at facebook.com, Facebook Page Manager App (available on iOS and Android), or by adding your page account to Messenger. It's free, easy to install and comes with a user interface your customers are already familiar with.",
+                "title": "Facebook Chat Plugin - Live Chat Plugin for WordPress",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "nextend-facebook-connect\/nextend-facebook-connect.php": {
+                "slug": "nextend-facebook-connect\/nextend-facebook-connect.php",
+                "name": "Nextend Social Login",
+                "version": "3.1.11",
+                "pluginURI": "https:\/\/nextendweb.com\/",
+                "author": "Nextendweb",
+                "authorURI": "https:\/\/nextendweb.com\/social-login\/",
+                "description": "Nextend Social Login displays social login buttons for Facebook, Google and X (formerly Twitter).",
+                "title": "Nextend Social Login",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "woocommerce\/woocommerce.php": {
+                "slug": "woocommerce\/woocommerce.php",
+                "name": "WooCommerce",
+                "version": "8.4.0",
+                "pluginURI": "https:\/\/woo.com\/",
+                "author": "Automattic",
+                "authorURI": "https:\/\/woo.com",
+                "description": "An eCommerce toolkit that helps you sell anything. Beautifully.",
+                "title": "WooCommerce",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "yith-woocommerce-wishlist\/init.php": {
+                "slug": "yith-woocommerce-wishlist\/init.php",
+                "name": "YITH WooCommerce Wishlist",
+                "version": "3.28.0",
+                "pluginURI": "https:\/\/yithemes.com\/themes\/plugins\/yith-woocommerce-wishlist\/",
+                "author": "YITH",
+                "authorURI": "https:\/\/yithemes.com\/",
+                "description": "<code><strong>YITH WooCommerce Wishlist<\/strong><\/code> gives your users the possibility to create, fill, manage and share their wishlists allowing you to analyze their interests and needs to improve your marketing strategies. <a href=\"https:\/\/yithemes.com\/\" target=\"_blank\">Get more plugins for your e-commerce on <strong>YITH<\/strong><\/a>",
+                "title": "YITH WooCommerce Wishlist",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            }
+        },
+        "themes": {
+            "flatsome": {
+                "slug": "flatsome",
+                "themeName": "Flatsome",
+                "version": "3.18.2",
+                "themeURI": "http:\/\/flatsome.uxthemes.com",
+                "parentTheme": false,
+                "template": "flatsome",
+                "stylesheet": "flatsome",
+                "description": "Multi-Purpose Responsive WooCommerce Theme",
+                "author": "UX-Themes",
+                "authorURI": "https:\/\/uxthemes.com",
+                "tags": [],
+                "isAllowed": true,
+                "isActive": true,
+                "defaultTheme": false
+            },
+            "twentytwentyfive": {
+                "slug": "twentytwentyfive",
+                "themeName": "Twenty Twenty-Five",
+                "version": "1.0",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentyfive\/",
+                "parentTheme": false,
+                "template": "twentytwentyfive",
+                "stylesheet": "twentytwentyfive",
+                "description": "Twenty Twenty-Five emphasizes simplicity and adaptability. It offers flexible design options, supported by a variety of patterns for different page types, such as services and landing pages, making it ideal for building personal blogs, professional portfolios, online magazines, or business websites. Its templates cater to various blog styles, from text-focused to image-heavy layouts. Additionally, it supports international typography and diverse color palettes, ensuring accessibility and customization for users worldwide.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "translation-ready",
+                    "wide-blocks",
+                    "block-styles",
+                    "style-variations",
+                    "accessibility-ready",
+                    "blog",
+                    "portfolio",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": true
+            }
+        }
+    },
+    "defaultStorageId": -1,
+    "components": [
+        "package_component_db",
+        "package_component_core",
+        "package_component_plugins",
+        "package_component_themes",
+        "package_component_uploads",
+        "package_component_other"
+    ],
+    "opts_delete": "[\"duplicator_ui_view_state\",\"duplicator_package_active\",\"duplicator_settings\",\"duplicator_is_pro_enable_notice_dismissed\"]",
+    "brand": {
+        "name": "Duplicator",
+        "isDefault": true,
+        "logo": "<i class=\"fa fa-bolt fa-sm\"><\/i> Duplicator",
+        "enabled": false,
+        "style": []
+    },
+    "overwriteInstallerParams": {
+        "blogname": {
+            "value": "Coder Coffee"
+        }
+    },
+    "installer_base_name": "installer.php.bak",
+    "installer_backup_name": "20241205_codercoffee_169962b33a58410b5516_20241205073736_installer-backup.php",
+    "package_name": "20241205_codercoffee_169962b33a58410b5516_20241205073736_archive.zip",
+    "package_hash": "169962b-05073736",
+    "package_notes": ""
+}
